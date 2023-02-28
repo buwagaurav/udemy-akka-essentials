@@ -13,8 +13,8 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
   "org.scalatest" %% "scalatest" % "3.2.15",
-  "com.typesafe.akka" %% "akka-http_2.13" % "10.2.4",
-  "com.typesafe.akka" %% "akka-http-spray-json_2.13" % "10.2.4",
+  "com.typesafe.akka" %% "akka-http" % "10.2.4",
+  "com.typesafe.akka" %% "akka-http-spray-json" % "10.4.0",
   "com.typesafe.akka" %% "akka-http-testkit" % "10.4.0",
   "com.typesafe.akka" %% "akka-stream" % akkaVersion,
   "com.typesafe.akka" %% "akka-stream-testkit" % akkaVersion % Test
